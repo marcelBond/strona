@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Counter-Strike 1.6 – Mapy</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <!-- Stylizacja czcionki charakterystycznej dla CS 1.6 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    body { background-color: #121212; color: #f1f1f1; }
+    .map-title { font-family:'Press Start 2P',monospace; font-size:0.9rem; color:#ffcc00; }
+    .map-card { background:#1c1c1c; border:1px solid #333; border-radius:10px; padding:1rem; }
+    .map-card img { border-radius:8px; width:45%; min-width:180px; }
+    .map-card p { font-size:0.9rem; color:#dcdcdc; }
+  </style>
+</head>
+
+<body>
+  <!-- Nawigacja -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Counter-Strike Series</a>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <h1 class="text-center mb-5">Counter-Strike 1.6 — Legendarne mapy</h1>
+
+    <div class="row g-4">
+      <!-- de_dust2 -->
+      <div class="col-md-6 d-flex align-items-center map-card">
+        <img src="img/cs1.6/d2.jpg" alt="de_dust2" class="me-3">
+        <div>
+          <h5 class="map-title">de_dust2</h5>
+          <p>Najbardziej znana mapa w historii CS. Dwa bombsite’y i idealna równowaga stron.</p>
+        </div>
+      </div>
+
+      <!-- de_inferno -->
+      <div class="col-md-6 d-flex align-items-center map-card">
+        <img src="img/cs1.6/inferno.jpg" alt="de_inferno" class="me-3">
+        <div>
+          <h5 class="map-title">de_inferno</h5>
+          <p>Wąskie uliczki włoskiego miasteczka i dwa intensywne bombsite’y.</p>
+        </div>
+      </div>
+
+      <!-- cs_assault -->
+      <div class="col-md-6 d-flex align-items-center map-card">
+        <img src="img/cs1.6/assults.jpg" alt="cs_assault" class="me-3">
+        <div>
+          <h5 class="map-title">cs_assault</h5>
+          <p>Zakładnicy przetrzymywani w magazynie. Idealna mapa dla obrony CT.</p>
+        </div>
+      </div>
+
+      <!-- de_nuke -->
+      <div class="col-md-6 d-flex align-items-center map-card">
+        <img src="img/cs1.6/nuke.jpg" alt="de_nuke" class="me-3">
+        <div>
+          <h5 class="map-title">de_nuke</h5>
+          <p>Elektrownia atomowa z pionową strukturą. Dwie kondygnacje, szybkie przejścia.</p>
+        </div>
+      </div>
+
+      <!-- cs_italy -->
+      <div class="col-md-6 d-flex align-items-center map-card">
+        <img src="img/cs1.6/cs_italy.jpg" alt="cs_italy" class="me-3">
+        <div>
+          <h5 class="map-title">cs_italy</h5>
+          <p>Misja ratunkowa zakładników w sercu włoskiego miasta. Urok i chaos w jednym.</p>
+        </div>
+      </div>
+
+      <!-- de_train -->
+      <div class="col-md-6 d-flex align-items-center map-card">
+        <img src="img/cs1.6/train.jpg" alt="de_train" class="me-3">
+        <div>
+          <h5 class="map-title">de_train</h5>
+          <p>Industrialna sceneria kolejowa. Taktyczna mapa wymagająca świetnego zgrania.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="py-3 bg-dark text-center">
+    <p class="text-light small mb-0">
+      to jest moja własna praca, wykorzystane zostały tylko szablony stron oraz dokumentacja bootstrapa
+    </p>
+  </footer>
+</body>
+</html>
