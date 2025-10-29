@@ -147,3 +147,22 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@keyframes wiadomosci {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -10%;
+  }
+}
+
+.wiadomosci>.ralsi {
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  width: 100px;
+  animation: wiadomosci 10s infinite ease-in-out;
+  animation-iteration-count: infinite;
+}
